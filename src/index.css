@@ -1,2 +1,10 @@
 @import "tailwindcss";
-@config "../tailwind.config.js";
+
+@layer utilities {
+  :root {
+    --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+    --color-primary: #c71585;
+    --color-dark-gray-2: #a9a9a9;
+    --radius-xl: 0.75rem;
+  }
+}
