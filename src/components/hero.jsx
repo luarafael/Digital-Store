@@ -1,37 +1,36 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import fireIcon from "../assets/fire.png";
 import dotsImage from "../assets/dots.png";
-import sneakerImage from "../assets/White-Sneakers-PNG.png";
 import { useNavigate } from "react-router-dom";
-import { useEffect } from "react";
+
+const slides = [
+  {
+    title: "Nike Air Jordan",
+    description:
+      "Descontos imperdíveis em tênis Nike para você renovar seu estilo.",
+    image: "/home-slide-5.jpeg",
+  },
+  {
+    title: "Nike Air Force",
+    description: "Os modelos mais procurados com descontos especiais.",
+    image: "/home-slide-6.jpeg",
+  },
+  {
+    title: "Nike Revolution",
+    description: "Conforto e estilo para o dia a dia com preço reduzido.",
+    image: "/home-slide-7.jpeg",
+  },
+  {
+    title: "Nike Pegasus",
+    description:
+      "Aproveite a queima de estoque com ofertas por tempo limitado.",
+    image: "/home-slide-8.jpeg",
+  },
+];
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const navigate = useNavigate();
-
-  const slides = [
-    {
-      title: "",
-      description:
-        "Descontos imperdíveis em tênis Nike para você renovar seu estilo.",
-      image: sneakerImage,
-    },
-    {
-      title: "Novidades Adidas",
-      description: "Conheça os lançamentos mais estilosos da Adidas.",
-      image: sneakerImage,
-    },
-    {
-      title: "Tênis em Alta",
-      description: "Os modelos mais procurados com descontos especiais.",
-      image: sneakerImage,
-    },
-    {
-      title: "Promoção Relâmpago",
-      description: "Só hoje: até 60% off em diversas marcas!",
-      image: sneakerImage,
-    },
-  ];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -41,7 +40,7 @@ const Hero = () => {
     }, 2000);
 
     return () => clearInterval(interval);
-  }, [slides.length]);
+  }, []);
 
   const goToProducts = () => {
     navigate("/produtos");
@@ -92,7 +91,7 @@ const Hero = () => {
           <img
             src={current.image}
             alt={current.title}
-            className="w-full object-contain drop-shadow-xl transition-all duration-300"
+            className="w-full object-contain drop-shadow-xl transition-all duration-300 mix-blend-multiply"
           />
 
           <img

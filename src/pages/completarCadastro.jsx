@@ -61,7 +61,6 @@ const CompletarCadastro = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Dados completos para envio:", formData);
     alert("Cadastro concluído com sucesso!");
     navigate("/");
   };

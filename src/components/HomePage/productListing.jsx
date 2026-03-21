@@ -12,15 +12,6 @@ const ProductListing = ({ products }) => {
   };
 
   const isHomePage = location.pathname === "/";
-  console.log(
-    "IDs dos produtos:",
-    products.map((p) => p.id),
-  );
-  products.forEach((product) => {
-    if (!product.id) {
-      console.warn("Produto sem ID:", product);
-    }
-  });
 
   return (
     <section className="px-4 mb-12">

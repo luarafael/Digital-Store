@@ -29,11 +29,9 @@ const Login = () => {
       alert("Login realizado com sucesso!");
       navigate("/");
     } catch (error) {
-      console.error("Erro no login:", error);
-
       const errorMessage =
         error.response?.data?.error ||
-        "Email ou senha incorretos. Tente novamente.";
+        "Não foi possível conectar ao servidor de login. Verifique se a API está rodando.";
       alert(errorMessage);
     }
   };
