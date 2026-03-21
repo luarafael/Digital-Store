@@ -210,16 +210,16 @@ export const products = [
     description:
       "Camiseta preta de algodão com estampa clássica da capa do álbum 'Unknown Pleasures' da banda Joy Division.",
     image:
-      "https://stamp.jetassets.com.br/produto/TS1722_2024-09-19_14_33_09_0.jpeg",
+      "https://images.pexels.com/photos/2315203/pexels-photo-2315203.jpeg?auto=compress&cs=tinysrgb&w=1200",
     images: [
       {
-        src: "https://stamp.jetassets.com.br/produto/TS1722_2024-09-19_14_33_09_0.jpeg",
+        src: "https://images.pexels.com/photos/2315203/pexels-photo-2315203.jpeg?auto=compress&cs=tinysrgb&w=1200",
       },
       {
-        src: "https://stamp.jetassets.com.br/produto/TS1722_2024-09-19_14_33_09_0.jpeg",
+        src: "https://images.pexels.com/photos/4791780/pexels-photo-4791780.jpeg?auto=compress&cs=tinysrgb&w=1200",
       },
       {
-        src: "https://stamp.jetassets.com.br/produto/TS1722_2024-09-19_14_33_09_0.jpeg",
+        src: "https://images.pexels.com/photos/2097644/pexels-photo-2097644.jpeg?auto=compress&cs=tinysrgb&w=1200",
       },
     ],
     category: "Camisetas",
@@ -325,5 +325,389 @@ export const products = [
     sizes: ["N/A"],
     colors: ["#000000", "#FFFFFF", "#0077b6"],
     relatedProducts: [11, 2],
+  },
+  {
+    id: 13,
+    title: "Calça Skinny Preta",
+    name: "Calça Skinny Preta",
+    reference: "Ref. CAL-SKINNY-BR",
+    stars: 4.6,
+    rating: 164,
+    price: 229.9,
+    priceDiscount: 179.9,
+    description:
+      "Calça skinny com modelagem ajustada, tecido confortável e acabamento premium para o dia a dia.",
+    image:
+      "https://images.pexels.com/photos/5151125/pexels-photo-5151125.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    images: [
+      {
+        src: "https://images.pexels.com/photos/5151125/pexels-photo-5151125.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+      {
+        src: "https://images.pexels.com/photos/5366340/pexels-photo-5366340.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+      {
+        src: "https://images.pexels.com/photos/6503006/pexels-photo-6503006.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+    ],
+    category: "Calças",
+    gender: "Unissex",
+    condition: "Novo",
+    brand: "Levis",
+    sizes: [36, 38, 40, 42, 44],
+    colors: ["#1f2937", "#111827"],
+    relatedProducts: [10, 14, 15],
+  },
+  {
+    id: 14,
+    title: "Calça Reta Sarja",
+    name: "Calça Reta Sarja",
+    reference: "Ref. CAL-RETA-BR",
+    stars: 4.5,
+    rating: 132,
+    price: 259.9,
+    priceDiscount: 209.9,
+    description:
+      "Calça de sarja com corte reto, ideal para combinações casuais e sociais com muito conforto.",
+    image:
+      "https://images.pexels.com/photos/5365673/pexels-photo-5365673.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    images: [
+      {
+        src: "https://images.pexels.com/photos/5365673/pexels-photo-5365673.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+      {
+        src: "https://images.pexels.com/photos/5365651/pexels-photo-5365651.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+      {
+        src: "https://images.pexels.com/photos/7062140/pexels-photo-7062140.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+    ],
+    category: "Calças",
+    gender: "Masculino",
+    condition: "Novo",
+    brand: "Zara",
+    sizes: [38, 40, 42, 44, 46],
+    colors: ["#374151", "#6b7280"],
+    relatedProducts: [10, 13, 15],
+  },
+  {
+    id: 15,
+    title: "Calça Cargo Utility",
+    name: "Calça Cargo Utility",
+    reference: "Ref. CAL-CARGO-BR",
+    stars: 4.7,
+    rating: 118,
+    price: 279.9,
+    priceDiscount: 239.9,
+    description:
+      "Calça cargo com bolsos funcionais e tecido resistente para quem busca estilo urbano e praticidade.",
+    image:
+      "https://images.pexels.com/photos/3828106/pexels-photo-3828106.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    images: [
+      {
+        src: "https://images.pexels.com/photos/3828106/pexels-photo-3828106.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+      {
+        src: "https://images.pexels.com/photos/6069227/pexels-photo-6069227.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+      {
+        src: "https://images.pexels.com/photos/6539638/pexels-photo-6539638.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+    ],
+    category: "Calças",
+    gender: "Unissex",
+    condition: "Novo",
+    brand: "Hering",
+    sizes: [36, 38, 40, 42, 44],
+    colors: ["#4b5563", "#9ca3af"],
+    relatedProducts: [10, 13, 14],
+  },
+  {
+    id: 16,
+    title: "Camiseta Básica Branca",
+    name: "Camiseta Básica Branca",
+    reference: "Ref. CAM-BASICA-WHITE-BR",
+    stars: 4.6,
+    rating: 182,
+    price: 99.9,
+    priceDiscount: 79.9,
+    description:
+      "Camiseta básica em algodão premium, modelagem confortável e acabamento reforçado para uso diário.",
+    image:
+      "https://images.pexels.com/photos/6481172/pexels-photo-6481172.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    images: [
+      {
+        src: "https://images.pexels.com/photos/6481172/pexels-photo-6481172.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+      {
+        src: "https://images.pexels.com/photos/7232795/pexels-photo-7232795.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+      {
+        src: "https://images.pexels.com/photos/2097644/pexels-photo-2097644.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+    ],
+    category: "Camisetas",
+    gender: "Masculino",
+    condition: "Novo",
+    brand: "Hering",
+    sizes: ["P", "M", "G", "GG"],
+    colors: ["#ffffff", "#f3f4f6"],
+    relatedProducts: [9, 17, 18],
+  },
+  {
+    id: 17,
+    title: "Camiseta Oversized Preta",
+    name: "Camiseta Oversized Preta",
+    reference: "Ref. CAM-OVER-BLACK-BR",
+    stars: 4.8,
+    rating: 206,
+    price: 129.9,
+    priceDiscount: 99.9,
+    description:
+      "Camiseta oversized preta com caimento moderno e tecido macio para compor looks urbanos.",
+    image:
+      "https://images.pexels.com/photos/4791780/pexels-photo-4791780.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    images: [
+      {
+        src: "https://images.pexels.com/photos/4791780/pexels-photo-4791780.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+      {
+        src: "https://images.pexels.com/photos/2315203/pexels-photo-2315203.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+      {
+        src: "https://images.pexels.com/photos/6481172/pexels-photo-6481172.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+    ],
+    category: "Camisetas",
+    gender: "Unissex",
+    condition: "Novo",
+    brand: "Nike",
+    sizes: ["P", "M", "G", "GG"],
+    colors: ["#111827", "#000000"],
+    relatedProducts: [9, 16, 18],
+  },
+  {
+    id: 18,
+    title: "Camiseta Street Graphic",
+    name: "Camiseta Street Graphic",
+    reference: "Ref. CAM-STREET-GRAPH-BR",
+    stars: 4.7,
+    rating: 174,
+    price: 149.9,
+    priceDiscount: 119.9,
+    description:
+      "Camiseta com estampa street exclusiva e tecido leve, ideal para visuais casuais e contemporâneos.",
+    image:
+      "https://images.pexels.com/photos/2315203/pexels-photo-2315203.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    images: [
+      {
+        src: "https://images.pexels.com/photos/2315203/pexels-photo-2315203.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+      {
+        src: "https://images.pexels.com/photos/4791780/pexels-photo-4791780.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+      {
+        src: "https://images.pexels.com/photos/7232795/pexels-photo-7232795.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+    ],
+    category: "Camisetas",
+    gender: "Unissex",
+    condition: "Novo",
+    brand: "Adidas",
+    sizes: ["P", "M", "G", "GG"],
+    colors: ["#f9fafb", "#1f2937"],
+    relatedProducts: [9, 16, 17],
+  },
+  {
+    id: 19,
+    title: "Boné Dad Hat Preto",
+    name: "Boné Dad Hat Preto",
+    reference: "Ref. BONE-DADHAT-BLACK-BR",
+    stars: 4.7,
+    rating: 198,
+    price: 99.9,
+    priceDiscount: 79.9,
+    description:
+      "Boné dad hat preto com aba curva, regulagem traseira e visual casual para combinar com produções urbanas.",
+    image:
+      "https://images.pexels.com/photos/1007804/pexels-photo-1007804.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    images: [
+      {
+        src: "https://images.pexels.com/photos/1007804/pexels-photo-1007804.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+      {
+        src: "https://images.pexels.com/photos/3625282/pexels-photo-3625282.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+      {
+        src: "https://images.pexels.com/photos/7408297/pexels-photo-7408297.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+    ],
+    category: "Bonés",
+    gender: "Unissex",
+    condition: "Novo",
+    brand: "New Era",
+    sizes: ["Único"],
+    colors: ["#111827", "#000000"],
+    relatedProducts: [11, 20, 21],
+  },
+  {
+    id: 20,
+    title: "Boné Trucker Azul",
+    name: "Boné Trucker Azul",
+    reference: "Ref. BONE-TRUCKER-BLUE-BR",
+    stars: 4.6,
+    rating: 167,
+    price: 109.9,
+    priceDiscount: 84.9,
+    description:
+      "Boné trucker azul com painel traseiro em tela e frente estruturada, ideal para um visual esportivo e leve.",
+    image:
+      "https://images.pexels.com/photos/3625282/pexels-photo-3625282.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    images: [
+      {
+        src: "https://images.pexels.com/photos/3625282/pexels-photo-3625282.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+      {
+        src: "https://images.pexels.com/photos/7408297/pexels-photo-7408297.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+      {
+        src: "https://images.pexels.com/photos/1007804/pexels-photo-1007804.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+    ],
+    category: "Bonés",
+    gender: "Unissex",
+    condition: "Novo",
+    brand: "Nike",
+    sizes: ["Único"],
+    colors: ["#2563eb", "#1d4ed8"],
+    relatedProducts: [11, 19, 21],
+  },
+  {
+    id: 21,
+    title: "Boné Street Vermelho",
+    name: "Boné Street Vermelho",
+    reference: "Ref. BONE-STREET-RED-BR",
+    stars: 4.8,
+    rating: 214,
+    price: 119.9,
+    priceDiscount: 89.9,
+    description:
+      "Boné streetwear vermelho com bordado frontal e acabamento resistente para compor looks marcantes no dia a dia.",
+    image:
+      "https://images.pexels.com/photos/7408297/pexels-photo-7408297.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    images: [
+      {
+        src: "https://images.pexels.com/photos/7408297/pexels-photo-7408297.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+      {
+        src: "https://images.pexels.com/photos/1007804/pexels-photo-1007804.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+      {
+        src: "https://images.pexels.com/photos/3625282/pexels-photo-3625282.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+    ],
+    category: "Bonés",
+    gender: "Unissex",
+    condition: "Novo",
+    brand: "Adidas",
+    sizes: ["Único"],
+    colors: ["#dc2626", "#991b1b"],
+    relatedProducts: [11, 19, 20],
+  },
+  {
+    id: 22,
+    title: "Headphone Studio Black",
+    name: "Headphone Studio Black",
+    reference: "Ref. HEAD-STUDIO-BLACK-BR",
+    stars: 4.9,
+    rating: 286,
+    price: 349.9,
+    priceDiscount: 289.9,
+    description:
+      "Headphone over-ear com isolamento acústico, graves potentes e construção robusta para uso diário e produção musical.",
+    image:
+      "https://images.pexels.com/photos/2919003/pexels-photo-2919003.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    images: [
+      {
+        src: "https://images.pexels.com/photos/2919003/pexels-photo-2919003.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+      {
+        src: "https://images.pexels.com/photos/5269759/pexels-photo-5269759.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+      {
+        src: "https://images.pexels.com/photos/5269726/pexels-photo-5269726.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+    ],
+    category: "Headphones",
+    gender: "Unissex",
+    condition: "Novo",
+    brand: "Sony",
+    sizes: ["N/A"],
+    colors: ["#111827", "#000000"],
+    relatedProducts: [12, 23, 24],
+  },
+  {
+    id: 23,
+    title: "Headphone Wireless White",
+    name: "Headphone Wireless White",
+    reference: "Ref. HEAD-WIRELESS-WHITE-BR",
+    stars: 4.7,
+    rating: 241,
+    price: 329.9,
+    priceDiscount: 269.9,
+    description:
+      "Headphone sem fio com design clean, almofadas confortáveis e conexão estável para longas sessões de áudio.",
+    image:
+      "https://images.pexels.com/photos/7054718/pexels-photo-7054718.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    images: [
+      {
+        src: "https://images.pexels.com/photos/7054718/pexels-photo-7054718.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+      {
+        src: "https://images.pexels.com/photos/7054720/pexels-photo-7054720.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+      {
+        src: "https://images.pexels.com/photos/3394666/pexels-photo-3394666.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+    ],
+    category: "Headphones",
+    gender: "Unissex",
+    condition: "Novo",
+    brand: "Philips",
+    sizes: ["N/A"],
+    colors: ["#f9fafb", "#e5e7eb"],
+    relatedProducts: [12, 22, 24],
+  },
+  {
+    id: 24,
+    title: "Headphone Urban Pro",
+    name: "Headphone Urban Pro",
+    reference: "Ref. HEAD-URBAN-PRO-BR",
+    stars: 4.8,
+    rating: 259,
+    price: 389.9,
+    priceDiscount: 319.9,
+    description:
+      "Headphone premium com acabamento moderno, estrutura dobrável e áudio equilibrado para mobilidade e conforto.",
+    image:
+      "https://images.pexels.com/photos/5269759/pexels-photo-5269759.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    images: [
+      {
+        src: "https://images.pexels.com/photos/5269759/pexels-photo-5269759.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+      {
+        src: "https://images.pexels.com/photos/2919003/pexels-photo-2919003.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+      {
+        src: "https://images.pexels.com/photos/5269726/pexels-photo-5269726.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+    ],
+    category: "Headphones",
+    gender: "Unissex",
+    condition: "Novo",
+    brand: "JBL",
+    sizes: ["N/A"],
+    colors: ["#111827", "#374151"],
+    relatedProducts: [12, 22, 23],
   },
 ];

@@ -9,7 +9,7 @@ const Footer = () => {
         <div>
           <img src={LogoFooter} alt="Drip Store Logo" className="h-8 mb-4" />
           <p className="text-sm text-gray-400 mb-4">
-            A Drip Store reúne estilo, conforto e praticidade para você
+            A Digital Store reúne estilo, conforto e praticidade para você
             encontrar os melhores produtos e comprar com segurança.
           </p>
           <div className="flex space-x-4">
@@ -23,7 +23,7 @@ const Footer = () => {
           <h3 className="font-semibold mb-4">Informação</h3>
           <ul className="space-y-2 text-sm text-gray-400">
             <li>
-              <a href="#">Sobre Drip Store</a>
+              <a href="#">Sobre Digital Store</a>
             </li>
             <li>
               <a href="#">Segurança</a>
