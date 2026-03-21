@@ -109,8 +109,7 @@ export const products = [
     price: 399.99,
     priceDiscount: 299.99,
     description: "Tênis Asics com suporte e estabilidade.",
-    image:
-      "https://asicsbr.vteximg.com.br/arquivos/ids/2744214-1000-1000/null.jpg",
+    image: "/produc-image-5.jpeg",
     images: [
       { src: "/produc-image-5.jpeg" },
       { src: "/product-thumb-5.jpeg" },

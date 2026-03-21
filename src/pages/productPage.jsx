@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { products } from "../data/products";
 import ProductListingList from "../components/AbaProdutos/productListingList";
 import { Link, useLocation } from "react-router-dom";
@@ -19,6 +19,19 @@ const ProductPage = () => {
     }
     return [];
   });
+
+  useEffect(() => {
+    if (categoryFromUrl) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setFilters([
+        categoryFromUrl.charAt(0).toUpperCase() +
+          categoryFromUrl.slice(1).toLowerCase(),
+      ]);
+      return;
+    }
+
+    setFilters([]);
+  }, [categoryFromUrl]);
 
   const allFilters = [
     {
