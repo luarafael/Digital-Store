@@ -73,7 +73,7 @@ const Footer = () => {
           <p className="text-sm text-gray-400 mt-2">(85) 3051-3411</p>
         </div>
       </div>
-      .
+
       <div className="border-t border-gray-700 mt-10 pt-6 text-center text-xs text-gray-500">
         © 2026 Digital Store LTDA. Todos os direitos reservados.
       </div>

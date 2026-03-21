@@ -85,11 +85,17 @@ export const products = [
     priceDiscount: 179.99,
     description: "Tênis New Balance clássico e versátil.",
     image:
-      "https://cdn.bnws3.com.br/b2online.com.br/image/cache/data/produtos/new-balance/masculino/tenis-new-balance-574-v2-masculino-vinho---cinza-8784-24-01-24-00-1200x1200.jpg",
+      "https://images.pexels.com/photos/4228203/pexels-photo-4228203.jpeg?auto=compress&cs=tinysrgb&w=1200",
     images: [
-      { src: "/produc-image-4.jpeg" },
-      { src: "/product-thumb-4.jpeg" },
-      { src: "/product-thumb-5.jpeg" },
+      {
+        src: "https://images.pexels.com/photos/4228203/pexels-photo-4228203.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+      {
+        src: "https://images.pexels.com/photos/4932844/pexels-photo-4932844.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
+      {
+        src: "https://images.pexels.com/photos/1027130/pexels-photo-1027130.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      },
     ],
     category: "Tênis",
     gender: "Unissex",
