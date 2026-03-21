@@ -6,3 +6,15 @@
   --color-dark-gray-2: #a9a9a9;
   --radius-xl: 0.75rem;
 }
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  button:disabled,
+  [role="button"]:disabled {
+    cursor: not-allowed;
+  }
+}

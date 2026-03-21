@@ -81,7 +81,7 @@ const Hero = () => {
 
           <button
             onClick={goToProducts}
-            className="bg-pink-600 hover:bg-pink-700 text-white px-12 py-2 rounded-lg font-semibold transition"
+            className="bg-pink-600 hover:bg-pink-700 text-white px-12 py-2 rounded-lg font-semibold transition cursor-pointer"
           >
             Ver Ofertas
           </button>

@@ -4,6 +4,7 @@ import { FiEye, FiEyeOff } from "react-icons/fi";
 import { FcGoogle } from "react-icons/fc";
 import { FaFacebook, FaMicrosoft } from "react-icons/fa";
 import { api, setAuthToken } from "../services/api";
+import decorativeSneaker from "../assets/White-Sneakers-PNG.png";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -112,7 +113,7 @@ const Login = () => {
               <div>
                 <button
                   type="submit"
-                  className="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-pink-600 hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500"
+                  className="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-pink-600 hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500 cursor-pointer"
                 >
                   Acessar Conta
                 </button>
@@ -154,7 +155,7 @@ const Login = () => {
 
           <div className="hidden md:flex justify-center items-center">
             <img
-              src="/tenis-login-2.PNG"
+              src={decorativeSneaker}
               alt="Tênis decorativo"
               className="max-w-lg w-full drop-shadow-2xl"
             />
